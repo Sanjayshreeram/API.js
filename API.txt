@@ -1,0 +1,23 @@
+//requirements for book management api
+//books
+booknumber,publication date,language,number of pages,authot[list of author names],category[book category].
+//authors
+id,name,books[]
+//publications 
+id,name,books[].
+ //1.books
+   //TO het all books
+    //to get specific book
+      //to get list of books based on category
+      //to get list of books based on language
+ 2.authors
+ //to get all authors
+ // to get specific author
+ //to get list of authors based on list
+ 3.publications
+ //to get all publication
+ to get specific publication
+ //to get list of publication based on booknumber    
+
+
+
