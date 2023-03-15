@@ -5,7 +5,7 @@ const Books=[{
     language:"en",
     numpage:250,
     author:[1,2],
-    publications:[1],
+    publications:1,
     category:["self development","motivation","discipline"]
 
 }]
@@ -24,6 +24,13 @@ const publication=[
         id:1,
         name:"jiaco",
         books:["12345"]
+    },
+    //TO UPDATE USING PUT 
+    {
+        id:2,
+        name:"NEW",
+        books:[]
     }
 ]
+//EXPORTING THE DATABASE
 module.exports={Books,author,publication};
