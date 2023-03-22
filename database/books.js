@@ -4,8 +4,8 @@ const Books=[{
     pubdate:"2023-03-01",
     language:"en",
     numpage:250,
-    author:[1,2],
-    publications:1,
+    authors:[1],
+    publications:[1],
     category:["self development","motivation","discipline"]
 
 }]
@@ -29,7 +29,7 @@ const publication=[
     {
         id:2,
         name:"NEW",
-        books:[]
+        books:["12345"]
     }
 ]
 //EXPORTING THE DATABASE
